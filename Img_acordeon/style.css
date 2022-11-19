@@ -28,10 +28,12 @@
 }
 .h3_visibility{
     visibility: visible;
+    position: absolute;
 }
 h3{
     color: white;
     margin-top: 750px;
     margin-left: 30px;
     visibility: hidden;
+    
 }

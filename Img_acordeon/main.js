@@ -4,19 +4,20 @@ const panels = document.querySelectorAll('.panel');
 
 panels.forEach((panel) => {
   panel.addEventListener('click',function(){
-      removeActiveClasses();
+      removeClasses();
       panel.classList.add('active');
       panel.classList.add('imagen_estilo')
-      panel.firstElementChild.classList.add('h3_visibility')
-      
- 
 
+      const time = setTimeout(() => {
+     let letra =  panel.firstElementChild.classList.add('h3_visibility')
+        
+      }, 1000);
       
   });
 });
 
 
-function removeActiveClasses() {
+function removeClasses() {
   panels.forEach((panel) => {
     panel.classList.remove('active');
     panel.classList.remove('imagen_estilo')
