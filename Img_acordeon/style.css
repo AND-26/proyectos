@@ -1,0 +1,37 @@
+
+.container{
+    width: 1400px;
+    height: 800px;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.imagen_estilo{
+    background-position: center;
+}
+.panel{
+    width:80px;
+    transition: 2s;
+    height: 800px;
+    border-radius: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.active{
+ width: 900px;
+ 
+}
+.h3_visibility{
+    visibility: visible;
+}
+h3{
+    color: white;
+    margin-top: 750px;
+    margin-left: 30px;
+    visibility: hidden;
+}
