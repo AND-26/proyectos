@@ -20,15 +20,17 @@
     border-radius: 65px;
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: pointer;
     
 }
 .active{
  width: 900px;
+ cursor: auto;
  
 }
 .h3_visibility{
     visibility: visible;
-    position: absolute;
+    /* transition:  visibility ease-in 3s; */
 }
 h3{
     color: white;

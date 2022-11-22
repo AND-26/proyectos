@@ -1,0 +1,53 @@
+.container{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.progress-container{
+    display: flex;
+    justify-content: center;
+
+}
+.line{
+    
+    width: 50px;
+    height: 1px;
+    border-color: white;
+    background-color: white;
+    margin-top: 18.5px;
+    transition: 5s;
+}
+.circle{
+    border: 1px solid blue;
+    border-radius: 100%;
+    width: 10px;
+    padding: 10px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    
+}
+.box_btn{
+    margin-top: 10px;
+}
+.active{
+    background-color: blue;
+    border-color:  1px solid white;
+    color: white;
+}
+.prueba{
+    background-color: red;
+}
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    background-color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: blue;
+}
