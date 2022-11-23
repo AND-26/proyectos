@@ -1,0 +1,133 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #222;
+}
+
+
+.container{
+    background-color: white;
+    
+    transform-origin: top left;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-bottom:90px ;
+    transition: 1s;
+
+
+}
+.content{
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+  margin-bottom: -2px;
+}
+small {
+  margin-top: -30px;
+  font-style: italic;
+}
+
+.circle-container{
+    position: relative;
+  border-radius: 50%;
+    width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -95px;
+}
+.circulo {
+  width: 190px;
+  height: 190px;
+
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ff7979;
+  transition: 1s;
+}
+
+.botones {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 120px;
+  padding: 5px;
+  background-color: #ff7979;
+  border: 1px solid #ff7979;
+  color: white;
+}
+
+.botones2 {
+  background-color: #ff7979;
+  border: 1px solid #ff7979;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  margin-left: 43px;
+  margin-top: 115px;
+}
+i {
+  font-size: 30px;
+}
+
+.rodar {
+  transform: rotate(-70deg);
+  margin-left: -10px;
+  margin-top: -80px;
+  
+}
+.rodar-al-reves {
+  transform: rotate(0deg);
+}
+.container-rotate{
+    transform: rotate(-15deg);
+    
+}
+nav{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: -100px;
+    z-index: -1;
+}
+nav ul i{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+li{
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.li1-entrada{
+    transform: translateX(100px);
+    transition: 1s;
+}
+.li2-entrada{
+    transform: translateX(120px);
+    transition: 1s;
+}
+
+.li3-entrada{
+    transform: translateX(140px);
+    transition: 1s;
+}
+
+
+.li-salida1{
+    transform: translateX(-100px);
+    transition: 1s;
+}
+.li2-salida{
+    transform: translateX(-120px);
+    transition: 1s;
+}
+.li3-salida{
+    transform: translateX(-140px);
+    transition: 1s;
+}
