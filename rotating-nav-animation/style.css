@@ -85,9 +85,9 @@ i {
 }
 nav{
     position: absolute;
-    margin-top: -450px;
+    margin-top: -550px;
     margin-left: -100px;
-    z-index: -1;
+    position: fixed;
 }
 nav ul i{
     color: white;
