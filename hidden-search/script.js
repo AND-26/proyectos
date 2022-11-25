@@ -5,8 +5,5 @@ btn.addEventListener('click',function(){
 input.classList.toggle('input-animation')
 btn.classList.toggle('btn_animation1')
 
-
-
-
 })
 

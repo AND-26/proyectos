@@ -1,43 +1,42 @@
-body{
-    background-image: linear-gradient(90deg, #7d5fff, #7158e2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-div{
-    margin-top: 400px;
-    display: flex;
-    justify-content: center;
+div {
+  margin-top: 400px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
 }
-.btn{
-    height: 50px;
-    width: 50px;
-   background-color: white;
-   border: 1px solid white;
-   z-index: +1;
-   transition: 1s;
-}
-
-
-.input{
-    border: 1px solid white;
-    background-color: white;
-    height: 7.5px;
-    padding: 20px;
-transition: 1s;
-    width: 5px;
-    margin-left: 3px;
-    position: absolute;
-
-}
-.input-animation{
-    transform: translateX(-57px);
-    transition: 1s;
-    width: 200px;
-    outline: none;
+.btn {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border: 1px solid white;
+  z-index: +1;
+  transition: 0.5s;
 }
 
-.btn_animation1{
-transform: translateX(80px);
-transition: 1s;
+.input {
+  border: 1px solid blue;
+  background-color: blue;
+  height: 7.5px;
+  padding: 20px;
+  transition: 0.5s;
+  width: 5px;
+  margin-left: 3px;
+  position: absolute;
+}
+.input-animation {
+  transform: translateX(-30px);
+  transition: 0.5s;
+  width: 150px;
+  outline: none;
+}
+
+.btn_animation1 {
+  transform: translateX(50px);
+  transition: 0.5s;
 }
