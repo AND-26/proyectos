@@ -3,21 +3,18 @@ body {
   background-color: #222;
 }
 
+.container {
+  background-color: white;
 
-.container{
-    background-color: white;
-    
-    transform-origin: top left;
-    margin-left: -10px;
-    margin-right: -10px;
-    padding-bottom:90px ;
-    transition: 1s;
-
-
+  transform-origin: top left;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-bottom: 90px;
+  transition: 1s;
 }
-.content{
-    width: 60%;
-    margin: auto;
+.content {
+  width: 60%;
+  margin: auto;
 }
 
 h1 {
@@ -28,10 +25,10 @@ small {
   font-style: italic;
 }
 
-.circle-container{
-    position: relative;
+.circle-container {
+  position: relative;
   border-radius: 50%;
-    width: 200px;
+  width: 200px;
   height: 200px;
   margin-top: -100px;
   margin-left: -95px;
@@ -74,60 +71,57 @@ i {
   transform: rotate(-70deg);
   margin-left: -10px;
   margin-top: -80px;
-  
 }
 .rodar-al-reves {
   transform: rotate(0deg);
 }
-.container-rotate{
-    transform: rotate(-15deg);
-    
+.container-rotate {
+  transform: rotate(-15deg);
 }
-nav{
-    position: absolute;
-    margin-top: -550px;
-    margin-left: -100px;
-    position: fixed;
+nav {
+  position: absolute;
+  margin-top: -550px;
+  margin-left: -100px;
+  position: fixed;
 }
-nav ul i{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 30px;
-    margin-right: 10px;
+nav ul i {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-right: 10px;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
-.li1-entrada{
-    transform: translateX(100px);
-    transition: 1s;
+.li1-entrada {
+  transform: translateX(100px);
+  transition: 1s;
 }
-.li2-entrada{
-    transform: translateX(120px);
-    transition: 1s;
-}
-
-.li3-entrada{
-    transform: translateX(140px);
-    transition: 1s;
+.li2-entrada {
+  transform: translateX(120px);
+  transition: 1s;
 }
 
+.li3-entrada {
+  transform: translateX(140px);
+  transition: 1s;
+}
 
-.li-salida1{
-    transform: translateX(-100px);
-    transition: 1s;
+.li-salida1 {
+  transform: translateX(-100px);
+  transition: 1s;
 }
-.li2-salida{
-    transform: translateX(-120px);
-    transition: 1s;
+.li2-salida {
+  transform: translateX(-120px);
+  transition: 1s;
 }
-.li3-salida{
-    transform: translateX(-140px);
-    transition: 1s;
+.li3-salida {
+  transform: translateX(-140px);
+  transition: 1s;
 }
