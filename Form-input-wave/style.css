@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: steelblue;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 380px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-top: 75px;
+  margin-top: 14%;
+  position: relative;
+  border-radius: 7px;
+}
+h1 {
+  position: absolute;
+  margin-top: -110%;
+  font-size: 40px;
+  color: white;
+}
+input {
+  background-color: transparent;
+  width: 300px;
+  margin-left: 5%;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-bottom: 35px;
+}
+input:focus{
+    outline: none;
+    
+}
+label {
+  margin-left: 5%;
+  color: white;
+  display: inline-block;
+  width: 200px;
+  margin-top: 19px;
+  font-size: 20px;
+}
+.btn {
+  margin-left: 5%;
+  padding: 20px;
+  width: 305px;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  background-color: lightblue;
+}
+p {
+  color: white;
+  margin-top: 40px;
+  margin-left: 5%;
+}
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+span:hover{
+    position: absolute;
+    transform: translateY(-20px);
+    
+}
+
+/* animaciones */
+.movimiento{
+    position: absolute;
+    transition: 0.9s;
+}
+label span:hover{
+    transform: translateY(-20px);
+}
+.form-control label span{
+    transform: translateY(-20px);
+}

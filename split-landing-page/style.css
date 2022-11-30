@@ -66,11 +66,11 @@ body {
 }
 .efecto_grande {
   transition: 1s;
-  width: 75%;
+  width: 70%;
 }
 .efecto_small {
   transition: 1s;
-  width: 25%;
+  width: 30%;
 }
 
 .right h1 {
