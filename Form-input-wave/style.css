@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: steelblue;
+  font-family: 'Mulish', sans-serif;
 }
 .container {
   background-color: rgba(0, 0, 0, 0.4);
@@ -13,39 +14,65 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
-  padding-top: 75px;
+  padding-top: 95px;
   margin-top: 14%;
   position: relative;
   border-radius: 7px;
 }
+.form-control{
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-control label span{
+  display: inline-block;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);  
+
+}
 h1 {
   position: absolute;
   margin-top: -110%;
-  font-size: 40px;
+  font-size: 32px;
+  font-weight: bolder;
   color: white;
 }
 input {
   background-color: transparent;
   width: 300px;
-  margin-left: 5%;
   border: none;
   border-bottom: 2px solid white;
   margin-bottom: 35px;
 }
-input:focus{
-    outline: none;
-    
+input:focus {
+  outline: none;
 }
 label {
-  margin-left: 5%;
+  
   color: white;
-  display: inline-block;
   width: 200px;
   margin-top: 19px;
   font-size: 20px;
+
+}
+#lbemail{
+margin-bottom: -20px;
+display: flex;
+gap: 1px;
+}
+#inpuEm{
+  padding-bottom: 10px;
+  
+}
+#inpupas{
+  padding-bottom: 10px;
+
+}
+#password{
+margin-bottom: -20px;
+  display: flex;
+gap: 1px;
 }
 .btn {
-  margin-left: 5%;
+
   padding: 20px;
   width: 305px;
   border-radius: 7px;
@@ -56,26 +83,32 @@ label {
 p {
   color: white;
   margin-top: 40px;
-  margin-left: 5%;
+
 }
 a {
   text-decoration: none;
   color: lightblue;
 }
-span:hover{
-    position: absolute;
-    transform: translateY(-20px);
+/* animaciones */
+
+.color{
+    color: red;
+    transition: 1s;
+}
+.color2{
+    color: black;
+    
+}
+.movimiento{
+
+transform: translateY(-27px);
+   transition-delay: 1s;
+   color: lightblue;
+  
     
 }
 
-/* animaciones */
-.movimiento{
-    position: absolute;
-    transition: 0.9s;
-}
-label span:hover{
-    transform: translateY(-20px);
-}
-.form-control label span{
-    transform: translateY(-20px);
+
+.movimiento_0{
+transform: translateY(27px);
 }
