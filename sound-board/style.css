@@ -22,10 +22,3 @@ body{
     border: none;
     font-size: 27px;
 }
-.color{
-    background-color: aqua;
-}
-.movimiento{
-    transform: translateY(-20px);
-    transition: 1s;
-}

@@ -1,5 +1,12 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+
+}
 .bg {
-  background-image: url("https://st.depositphotos.com/1005145/3711/i/450/depositphotos_37119755-stock-photo-panorama-of-winter-mountains.jpg");
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/711/761/110/one-piece-kaido-one-piece-monkey-d-luffy-hd-wallpaper-preview.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
