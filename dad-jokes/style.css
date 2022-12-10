@@ -1,0 +1,37 @@
+body {
+  background-color: #686de0;
+   font-family: 'Roboto', sans-serif;
+}
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 800px;
+  height: 313px;
+  border-radius: 12px;
+  gap: 70px;
+  margin-top: 18%;
+  padding: 20px;
+  transition: 1s;
+}
+.joke{
+  text-align: center;
+  font-size: 25px;
+}
+h3{
+  color: grey;
+    margin-bottom: -2px;
+    font-size: 20px;
+}
+.btn{
+background-color:#9f68e0 ;
+color: white;
+border: 1px solid #9f68e0;
+border-radius: 10px;
+padding: 15px;
+width: 200px;
+font-size: 18px;
+}
