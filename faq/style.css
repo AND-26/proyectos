@@ -1,0 +1,89 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Muli";
+  font-size: 17px;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.faq-container {
+  margin: 0 auto;
+  width: 700px;
+}
+.faq {
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.faq-text {
+  visibility: hidden;
+}
+.faq-toggle{
+    background: transparent;
+    border: none;
+}
+.faq-toggle i{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cambio{
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: grey;
+    color: white;
+}
+.visible {
+  position: absolute;
+  visibility: visible;
+  margin-top: 80px;
+}
+
+.active {
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px, rgba(0, 0, 0, 0.1) 0px 3px 6px;
+}
+
+.move {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 620px;
+}
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -20px;
+  transform: rotateY(180deg);
+}

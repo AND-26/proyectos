@@ -1,3 +1,6 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.fontFamily": "'Victor Mono', Monaco, 'Courier New', monospace",
+    "workbench.colorTheme": "Malibu Sunset"
 }

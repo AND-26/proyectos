@@ -1,0 +1,28 @@
+* {
+  font-family: "Mulish", sans-serif;
+}
+body {
+  background-color: #2b88f0;
+}
+.container {
+  background-color: #2b88f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 350px;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+textarea {
+  margin: 0 auto;
+  padding: 10px;
+  width: 500px;
+  height: 100px;
+}
+.p-estilo{
+  background-color: red;
+}

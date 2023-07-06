@@ -1,0 +1,63 @@
+body{
+  background-color: #e1e1e1;
+    font-family: 'Muli', sans-serif;
+
+}
+.key {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  visibility: visible;
+  border: 1px solid black;
+  margin-top: 25.4%;
+  margin-bottom: -80px;
+  width: 300px;
+  padding: 20px;
+}
+.containerKeys {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 20px;
+  height: 100px;
+  width: 550px;
+  z-index: 2;
+  visibility: hidden;
+}
+.containerKeys_child{
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+  height: 20px;
+  width: 170px;
+}
+
+.smallK {
+  position: absolute;
+  visibility: hidden;
+  font-size: 18px;
+  top: 390px;
+  left: 625px;
+}
+.smallKC {
+  position: absolute;
+  visibility: hidden;
+  font-size: 18px;
+  top: 390px;
+  left: 785px;
+}
+.smallC {
+  position: absolute;
+  visibility: hidden;
+  font-size: 18px;
+  top: 390px;
+  left: 980px;
+}
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}

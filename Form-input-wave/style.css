@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: steelblue;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 .container {
   background-color: rgba(0, 0, 0, 0.4);
@@ -19,14 +19,13 @@ body {
   position: relative;
   border-radius: 7px;
 }
-.form-control{
+.form-control {
   position: relative;
   margin-bottom: 20px;
 }
-.form-control label span{
+.form-control label span {
   display: inline-block;
-  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);  
-
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 h1 {
   position: absolute;
@@ -46,33 +45,28 @@ input:focus {
   outline: none;
 }
 label {
-  
   color: white;
   width: 200px;
   margin-top: 19px;
   font-size: 20px;
-
 }
-#lbemail{
-margin-bottom: -20px;
-display: flex;
-gap: 1px;
-}
-#inpuEm{
-  padding-bottom: 10px;
-  
-}
-#inpupas{
-  padding-bottom: 10px;
-
-}
-#password{
-margin-bottom: -20px;
+#lbemail {
+  margin-bottom: -20px;
   display: flex;
-gap: 1px;
+  gap: 1px;
+}
+#inpuEm {
+  padding-bottom: 10px;
+}
+#inpupas {
+  padding-bottom: 10px;
+}
+#password {
+  margin-bottom: -20px;
+  display: flex;
+  gap: 1px;
 }
 .btn {
-
   padding: 20px;
   width: 305px;
   border-radius: 7px;
@@ -83,7 +77,6 @@ gap: 1px;
 p {
   color: white;
   margin-top: 40px;
-
 }
 a {
   text-decoration: none;
@@ -91,24 +84,19 @@ a {
 }
 /* animaciones */
 
-.color{
-    color: red;
-    transition: 1s;
+.color {
+  color: red;
+  transition: 1s;
 }
-.color2{
-    color: black;
-    
+.color2 {
+  color: black;
 }
-.movimiento{
-
-transform: translateY(-27px);
-   transition-delay: 1s;
-   color: lightblue;
-  
-    
+.movimiento {
+  transform: translateY(-27px);
+  transition-delay: 1s;
+  color: lightblue;
 }
 
-
-.movimiento_0{
-transform: translateY(27px);
+.movimiento_0 {
+  transform: translateY(27px);
 }

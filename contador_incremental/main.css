@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button */
+
+button {
+    background-color: white;
+    border: black solid 2px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    margin-right: 890px;
+    margin-top: 200px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+/* card */
+.card {
+    display: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    width: 1300px;
+}
+
+.card__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 10s;
+    gap: 30px;
+}
+
+.card__img {
+    color: white;
+    width: 55px;
+}
+
+.card__number {
+    margin: 0px;
+    font-size: 60px;
+}
+
+.card__red-social {
+    margin: 0px;
+    font-size: 30px;
+}

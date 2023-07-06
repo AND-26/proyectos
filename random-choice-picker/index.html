@@ -10,19 +10,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap"
       rel="stylesheet"
     />
 
-    <title>Dad Jokes</title>
+    <title>Random Choice Picker</title>
   </head>
 
   <body>
     <div class="container">
-      <h3>Don't Laugh Challenge</h3>
-      <div id="joke" class="joke">// Joke goes here</div>
-      <button id="jokeBtn" class="btn">Get Another Joke</button>
+      <h3>
+        Enter all of the choices divided by a comma (','). <br />
+        Press enter when you're done
+      </h3>
+
+      <textarea placeholder="Enter choices here..." id="textarea"></textarea>
+
+      <div id="tags"></div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
